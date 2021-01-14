@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="92px" viewBox="0 0 84 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+  <title>time@1x</title>
+  <desc>Created with Sketch.</desc>
+  <style>
+    #hours {
+      animation-name: rotato;
+      animation-duration: 800ms;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: forwards;
+      transform-origin: 50% 42%;
+    }
+
+    #secs {
+      animation-name: rotato;
+      animation-duration: 20000ms;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: forwards;
+      transform-origin: 50% 42%;
+    }
+
+    @keyframes rotato {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="time">
+      <path
+        d="M47.402,2.126 L77.837,19.558 C81.21818,21.4948452 83.304,25.0933672 83.304,28.99 L83.304,63.705 C83.304,67.6016328 81.21818,71.2001548 77.837,73.137 L47.402,90.57 C44.0556232,92.4864377 39.9443768,92.4864377 36.598,90.57 L6.163,73.137 C2.78182003,71.2001548 0.696,67.6016328 0.696,63.705 L0.696,28.99 C0.696,25.0933672 2.78182003,21.4948452 6.163,19.558 L36.598,2.126 C39.9443768,0.209562309 44.0556232,0.209562309 47.402,2.126 Z"
+        id="a"
+        fill="#FFFFFF"
+        fill-rule="nonzero"></path>
+      <path
+        d="M47.154,2.56 C43.9613042,0.731346799 40.0386958,0.731346799 36.846,2.56 L6.411,19.992 C3.18559653,21.8398629 1.196,25.2727665 1.196,28.99 L1.196,63.705 C1.196,67.423 3.186,70.855 6.411,72.703 L36.846,90.135 C40.0386958,91.9636532 43.9613042,91.9636532 47.154,90.135 L77.589,72.703 C80.8144035,70.8551371 82.804,67.4222335 82.804,63.705 L82.804,28.99 C82.804,25.273 80.814,21.84 77.589,19.992 L47.154,2.56 Z"
+        id="Path"
+        stroke="#550BEB"></path>
+      <path
+        d="M30.857,49.269 C28.3659985,46.4823873 26.9923885,42.8736785 26.9999685,39.136 C26.9999685,30.776 33.716,24 42,24 C50.284,24 57,30.777 57,39.136 C57,43.243 55.379,46.969 52.747,49.696 L44.08,60.112 L44,60.112 C43.415981,60.6819776 42.6320589,61.0007151 41.816,61 C40.6859205,60.998896 39.6434864,60.3910004 39.086,59.408 L30.858,49.27 L30.857,49.269 Z M42,48.293 C47.114,48.293 51.26,44.11 51.26,38.949 C51.26,33.789 47.114,29.606 42,29.606 C36.886,29.606 32.74,33.789 32.74,38.949 C32.74,44.109 36.886,48.293 42,48.293 Z"
+        id="Shape"
+        fill="#550BEB"
+        fill-rule="nonzero"></path>
+      <line x1="42" y1="32" x2="42" y2="40" id="hours" stroke="#550BEB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+      <line x1="42" y1="31" x2="42" y2="40" id="secs" stroke="#550BEB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+    </g>
+  </g>
+</svg>

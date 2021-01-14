@@ -1,22 +1,24 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
-export default [
+import time from "../assets/time.svg"
+import study from "../assets/study.svg"
+import team from "../assets/team.svg"
+export default ([
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img src={time} alt="time" />,
+    title: "DELIVERS",
+    text: `Both in quality & clarity that's my north star`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img src={study} alt="study" />,
+    title: "AUTODIDACT",
+    text: `Self tought Web Developer and UI/UX Designer, thanks to the documentations and resources.`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img src={team} alt="team" />,
+    title: "TEAM PLAYER",
+    text: `Listening & being part of a team is where I'm at`,
   },
-]
+])
